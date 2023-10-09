@@ -12,10 +12,7 @@ const terminal: TerminalData[] = [
         type: "file",
         content: (
           <div className="py-1">
-            <div>
-              Hi, this is Hidenari Yuda. I am a PhD student at the Computer Science and
-              Engineering department of Pennsylvania State University.
-            </div>
+            <div>Hi, this is Hidenari Yuda.</div>
           </div>
         )
       },
@@ -23,14 +20,8 @@ const terminal: TerminalData[] = [
         id: "about-interests",
         title: "interests.txt",
         type: "file",
-        content: "Machine Learning / Computer Vision / Vision-Language Learning"
+        content: "Software Engineering, Football, and Food"
       },
-      // {
-      //   id: "about-who-cares",
-      //   title: "who-cares.txt",
-      //   type: "file",
-      //   content: ""
-      // },
       {
         id: "about-contact",
         title: "contact.txt",
@@ -60,46 +51,47 @@ const terminal: TerminalData[] = [
               </a>
             </li>
             <li>
+              Facebook:{" "}
               <a
                 className="text-blue-300"
-                href="https://scholar.google.com/citations?user=RuW6xgMAAAAJ"
+                href="https://www.facebook.com/hideyuda"
                 target="_blank"
                 rel="noreferrer"
               >
-                Google Scholar
+                @hideyuda
               </a>
             </li>
             <li>
               Linkedin:{" "}
               <a
                 className="text-blue-300"
-                href="https://www.linkedin.com/in/xiaohan-zou"
+                href="https://www.linkedin.com/in/hidenari-yuda-212076266/"
                 target="_blank"
                 rel="noreferrer"
               >
-                xiaohan-zou
+                @hidenari-yuda
               </a>
             </li>
             <li>
-              Personal Website:{" "}
+              X:{" "}
               <a
                 className="text-blue-300"
-                href="https://zxh.io"
+                href="https://www.x.com/hideyuda_jp"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://zxh.io
+                @hideyuda_jp
               </a>
             </li>
             <li>
-              知乎:{" "}
+              Project Website:{" "}
               <a
                 className="text-blue-300"
-                href="https://www.zhihu.com/people/chao-neng-gui-su"
+                href="https://co.ai-st.art"
                 target="_blank"
                 rel="noreferrer"
               >
-                @西伯利亚大恶龙
+                https://co.ai-st.art
               </a>
             </li>
           </ul>

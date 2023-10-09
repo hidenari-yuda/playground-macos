@@ -17,5 +17,7 @@ Contact me by:
 
 - Email: [yhide327@gmail.com](mailto:yhide327@gmail.com)
 - Github: [@hidenari-yuda](https://github.com/hidenari-yuda)
-- Linkedin: [hidenari-yuda](https://www.linkedin.com/in/hidenari-yuda)
+- Facebook: [hideyuda](https://www.facebook.com/hideyuda)
+- Linkedin: [hidenari-yuda](https://www.linkedin.com/in/hidenari-yuda-212076266/)
+- X: [hideyuda_jp](https://x.com/hideyuda_jp/)
 - Project Website: [co.ai-st.art](https://co.ai-st.art)

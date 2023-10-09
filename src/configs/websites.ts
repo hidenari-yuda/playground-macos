@@ -23,10 +23,10 @@ const websites: WebsitesData = {
         link: "https://www.linkedin.com/in/hidenari-yuda-212076266/"
       },
       {
-        id: "my-twitter",
-        title: "Twitter",
-        img: "img/sites/twitter.svg",
-        link: "https://www.twitter.com/hideyuda_jp"
+        id: "my-x",
+        title: "x",
+        img: "img/sites/x.svg",
+        link: "https://www.x.com/hideyuda_jp"
       },
       {
         id: "my-email",
@@ -46,10 +46,10 @@ const websites: WebsitesData = {
         link: "https://github.com/"
       },
       {
-        id: "twitter",
-        title: "Twitter",
-        img: "img/sites/twitter.svg",
-        link: "https://www.twitter.com/"
+        id: "x",
+        title: "x",
+        img: "img/sites/x.svg",
+        link: "https://www.x.com/"
       },
       {
         id: "pinterest",

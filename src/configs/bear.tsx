@@ -104,7 +104,7 @@ const bear: BearData[] = [
       //   file: "https://raw.githubusercontent.com/hidenari-yuda/midgard/master/README.md",
       //   icon: "i-bx:game",
       //   excerpt: "An interactable version of my resume, powered by Vue...",
-      //   link: "https://resume.zxh.io/"
+      //   link: "https://resume.co.ai-st.art/"
       // },
       // {
       //   id: "image-captioning",
@@ -120,7 +120,7 @@ const bear: BearData[] = [
       //   file: "https://raw.githubusercontent.com/hidenari-yuda/wordle-helper/main/README.md",
       //   icon: "i-bi:grid-1x2",
       //   excerpt: "Help you solve Wordle puzzles...",
-      //   link: "https://wordle.zxh.io"
+      //   link: "https://wordle.co.ai-st.art"
       // },
       // {
       //   id: "cube-solver",
@@ -128,7 +128,7 @@ const bear: BearData[] = [
       //   file: "https://raw.githubusercontent.com/hidenari-yuda/Just-a-Cube/master/README.md",
       //   icon: "i-bx:cube",
       //   excerpt: "A rubik's cube solver (layer-by-layer & two-phase)...",
-      //   link: "https://cube.zxh.io"
+      //   link: "https://cube.co.ai-st.art"
       // },
       // {
       //   id: "alkaid",
