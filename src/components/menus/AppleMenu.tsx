@@ -46,7 +46,7 @@ export default function AppleMenu({
       </MenuItemGroup>
       <MenuItemGroup border={false}>
         <MenuItem onClick={logout}>Lock Screen</MenuItem>
-        <MenuItem onClick={logout}>Log Out Xiaohan Zou...</MenuItem>
+        <MenuItem onClick={logout}>Log Out Hidenari Yuda...</MenuItem>
       </MenuItemGroup>
     </div>
   );

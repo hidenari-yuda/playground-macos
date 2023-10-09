@@ -2,7 +2,7 @@
 
 ## Biography
 
-Hey there! I am a PhD student at the [Computer Science and Engineering](https://www.eecs.psu.edu/) department of [Pennsylvania State University](https://www.psu.edu/). Previously, I received my master's degree in [Computer Science](https://www.bu.edu/cs/) at [Boston University](https://www.bu.edu/) and bachelor's degree in [Software Engineering](http://sse.tongji.edu.cn/) at [Tongji University](https://www.tongji.edu.cn/).
+Hey there! I am a student at Doshisha University in Kyoto, Japan.
 
 I'm trying to find a balance between research and engineering.
 
@@ -15,18 +15,7 @@ I'm also learning web development and building machine learning softwares and sy
 
 Contact me by:
 
-- Email: [renovamenzxh@gmail.com](mailto:renovamenzxh@gmail.com)
-- Github: [@Renovamen](https://github.com/Renovamen)
-- [Google Scholar](https://scholar.google.com/citations?user=RuW6xgMAAAAJ)
-- Linkedin: [xiaohan-zou](https://www.linkedin.com/in/xiaohan-zou)
-- 知乎: [@西伯利亚大恶龙](https://www.zhihu.com/people/chao-neng-gui-su)
-- Personal Website: [zxh.io](https://zxh.io)
-
-
-## Résumé
-
-- Normal version: [English](https://zxh.io/files/cv/en.pdf) / [中文](https://zxh.io/files/cv/cn.pdf)
-
-  中文版的更新很可能不及时
-
-- Interesting version: [portfolio.zxh.io](https://portfolio.zxh.io) / [resume.zxh.io](https://resume.zxh.io)
+- Email: [yhide327@gmail.com](mailto:yhide327@gmail.com)
+- Github: [@hidenari-yuda](https://github.com/hidenari-yuda)
+- Linkedin: [hidenari-yuda](https://www.linkedin.com/in/hidenari-yuda)
+- Project Website: [co.ai-st.art](https://co.ai-st.art)

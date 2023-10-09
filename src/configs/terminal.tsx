@@ -13,7 +13,7 @@ const terminal: TerminalData[] = [
         content: (
           <div className="py-1">
             <div>
-              Hi, this is Xiaohan Zou. I am a PhD student at the Computer Science and
+              Hi, this is Hidenari Yuda. I am a PhD student at the Computer Science and
               Engineering department of Pennsylvania State University.
             </div>
           </div>
@@ -41,22 +41,22 @@ const terminal: TerminalData[] = [
               Email:{" "}
               <a
                 className="text-blue-300"
-                href="mailto:renovamenzxh@gmail.com"
+                href="mailto:yhide327@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                renovamenzxh@gmail.com
+                yhide327@gmail.com
               </a>
             </li>
             <li>
               Github:{" "}
               <a
                 className="text-blue-300"
-                href="https://github.com/Renovamen"
+                href="https://github.com/hidenari-yuda"
                 target="_blank"
                 rel="noreferrer"
               >
-                @Renovamen
+                @hidenari-yuda
               </a>
             </li>
             <li>
