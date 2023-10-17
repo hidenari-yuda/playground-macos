@@ -279,7 +279,7 @@ export default function Desktop(props: MacActions) {
       )}
 
       {/* Launchpad */}
-      <Launchpad show={state.showLaunchpad} toggleLaunchpad={toggleLaunchpad} />
+      {/* <Launchpad show={state.showLaunchpad} toggleLaunchpad={toggleLaunchpad} /> */}
 
       {/* Dock */}
       <Dock

@@ -12,14 +12,7 @@ const bear: BearData[] = [
         file: "markdown/about-me.md",
         icon: "i-la:dragon",
         excerpt: "Hey there! I'm a dragon lost in human world..."
-      }
-    ]
-  },
-  {
-    id: "reach",
-    title: "Reach",
-    icon: "i-octicon:repo",
-    md: [
+      },
       {
         id: "reach",
         title: "reach",
@@ -30,6 +23,21 @@ const bear: BearData[] = [
       }
     ]
   },
+  // {
+  //   id: "reach",
+  //   title: "Reach",
+  //   icon: "i-octicon:repo",
+  //   md: [
+  //     {
+  //       id: "reach",
+  //       title: "reach",
+  //       file: "markdown/reach.md",
+  //       icon: "i-icon-park-outline:github",
+  //       excerpt: "人材紹介会社向けの送客・CRMシステムです。",
+  //       link: "https://reach-agent.com/"
+  //     }
+  //   ]
+  // },
   {
     id: "personal projects",
     title: "Personal Projects",
@@ -37,11 +45,19 @@ const bear: BearData[] = [
     md: [
       {
         id: "clean-grpc",
-        title: "Clean Architecture + gRPC",
+        title: "Go/NextJs/gRPC Template",
         file: "markdown/clean-grpc.md",
         icon: "i-icon-park-outline:github",
         excerpt: "Clean ArchitectureとgRPCを用いたGo/NextJsテンプレート",
         link: "https://github.com/hidenari-yuda/ai-market"
+      },
+      {
+        id: "expert",
+        title: "expert-ai",
+        file: "markdown/expert-ai.md",
+        icon: "i-icon-park-outline:github",
+        excerpt: "長期記憶LLMを用いた業務チャットbot(Slack App)"
+        // link: "https://github.com/hidenari-yuda/playground-macos"
       },
       {
         id: "django",
@@ -51,6 +67,44 @@ const bear: BearData[] = [
         excerpt: "Djangoを用いたWebアプリケーションテンプレート",
         link: "https://github.com/ai-start/career-server"
       },
+      {
+        id: "english-slack",
+        title: "english-slack",
+        file: "markdown/english-slack.md",
+        icon: "i-icon-park-outline:github",
+        excerpt: "ChatGPT×英語学習コミュニティ内のSlack App",
+        link: "https://circular-tricorne-9bc.notion.site/ChatGPT-dd8b10a7efcd49159c52f714e8cce395"
+      },
+      {
+        id: "rust",
+        title: "Learning Rust",
+        file: "markdown/rust.md",
+        icon: "i-icon-park-outline:github",
+        excerpt: "Rustの勉強用リポジトリ",
+        link: "https://github.com/hidenari-yuda/rust-web"
+      },
+      {
+        id: "nextjs-ts",
+        title: "Convert to TypeScript",
+        file: "markdown/nextjs-ts.md",
+        icon: "i-icon-park-outline:github",
+        excerpt: "JavaScriptで書かれたNextJsプロジェクトをTypeScriptに変換しました。",
+        link: "https://co.ai-st.art"
+      },
+      {
+        id: "opensource",
+        title: "Open Source",
+        file: "markdown/opensource.md",
+        icon: "i-icon-park-outline:github",
+        excerpt: "This is a list of my open source projects..."
+      },
+      {
+        id: "github-stats",
+        title: "Github Stats",
+        file: "markdown/github-stats.md",
+        icon: "i-icon-park-outline:github",
+        excerpt: "This is some status about my github account..."
+      }
       // {
       //   id: "recognize",
       //   title: "recognize",
@@ -91,38 +145,6 @@ const bear: BearData[] = [
       //   excerpt: "ECサイトのお買い物履歴買い取りサービス"
       //   // link: "https://github.com/hidenari-yuda/playground-macos"
       // },
-      {
-        id: "expert",
-        title: "expert-ai",
-        file: "markdown/expert-ai.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "長期記憶LLMを用いた業務チャットbot(Slack App)"
-        // link: "https://github.com/hidenari-yuda/playground-macos"
-      },
-      {
-        id: "english-slack",
-        title: "english-slack",
-        file: "markdown/english-slack.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "ChatGPT×英語学習コミュニティ内のSlack App",
-        link: "https://circular-tricorne-9bc.notion.site/ChatGPT-dd8b10a7efcd49159c52f714e8cce395"
-      },
-      {
-        id: "rust",
-        title: "Learning Rust",
-        file: "markdown/rust.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "Rustの勉強用リポジトリ",
-        link: "https://github.com/hidenari-yuda/rust-web"
-      },
-      {
-        id: "nextjs-ts",
-        title: "Convert to TypeScript",
-        file: "markdown/nextjs-ts.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "JavaScriptで書かれたNextJsプロジェクトをTypeScriptに変換しました。",
-        link: "https://co.ai-st.art"
-      }
       // {
       //   id: "portfolio-macos",
       //   title: "Portfolio macOS",
@@ -131,13 +153,6 @@ const bear: BearData[] = [
       //   excerpt: "My portfolio website simulating macOS's GUI...",
       //   link: "https://github.com/hidenari-yuda/playground-macos"
       // },
-      // {
-      //   id: "github-stats",
-      //   title: "Github Stats",
-      //   file: "markdown/github-stats.md",
-      //   icon: "i-icon-park-outline:github",
-      //   excerpt: "Here are some status about my github account..."
-      // }
       // {
       //   id: "about-site",
       //   title: "About This Site",

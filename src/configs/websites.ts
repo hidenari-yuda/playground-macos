@@ -62,18 +62,6 @@ const websites: WebsitesData = {
         title: "Reddit",
         img: "img/sites/reddit.svg",
         link: "https://www.reddit.com/"
-      },
-      {
-        id: "hacker-news",
-        title: "Hacker News",
-        img: "img/sites/hacker.svg",
-        link: "https://news.ycombinator.com/"
-      },
-      {
-        id: "steam",
-        title: "Steam",
-        img: "img/sites/steam.svg",
-        link: "https://store.steampowered.com/"
       }
     ]
   }
