@@ -27,6 +27,11 @@ export default function Login(props: MacActions) {
     }
   };
 
+  // if remains this page after 5s, move to desktop
+  setTimeout(() => {
+    props.setLogin(true);
+  }, 3000);
+
   return (
     <div
       className="w-full h-full login text-center"

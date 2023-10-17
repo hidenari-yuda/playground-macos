@@ -152,7 +152,7 @@ export default function ControlCenterMenu({
         <SliderComponent icon="i-ion:volume-high" value={volume} setValue={setVolume} />
       </div>
       <div className="cc-grid col-span-4 p-2 pr-4 hstack flex-row justify-between space-x-2.5">
-        <img src={music.cover} alt="cover art" className="w-12 rounded-lg" />
+        {/* <img src={music.cover} alt="cover art" className="w-12 rounded-lg" />
         <div className="flex flex-col flex-grow justify-start">
           <span className="font-medium">{music.title}</span>
           <span className="cc-text">{music.artist}</span>
@@ -161,7 +161,7 @@ export default function ControlCenterMenu({
           <span className="i-bi:pause-fill text-2xl" onClick={() => toggleAudio(false)} />
         ) : (
           <span className="i-bi:play-fill text-2xl" onClick={() => toggleAudio(true)} />
-        )}
+        )} */}
       </div>
     </div>
   );
