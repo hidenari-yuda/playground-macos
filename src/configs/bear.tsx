@@ -23,29 +23,14 @@ const bear: BearData[] = [
       }
     ]
   },
-  // {
-  //   id: "reach",
-  //   title: "Reach",
-  //   icon: "i-octicon:repo",
-  //   md: [
-  //     {
-  //       id: "reach",
-  //       title: "reach",
-  //       file: "markdown/reach.md",
-  //       icon: "i-icon-park-outline:github",
-  //       excerpt: "人材紹介会社向けの送客・CRMシステムです。",
-  //       link: "https://reach-agent.com/"
-  //     }
-  //   ]
-  // },
   {
-    id: "personal projects",
+    id: "personal-projects",
     title: "Personal Projects",
     icon: "i-octicon:repo",
     md: [
       {
         id: "clean-grpc",
-        title: "Go/NextJs/gRPC Template",
+        title: "gRPC Template",
         file: "markdown/clean-grpc.md",
         icon: "i-icon-park-outline:github",
         excerpt: "Clean ArchitectureとgRPCを用いたGo/NextJsテンプレート",
@@ -53,11 +38,11 @@ const bear: BearData[] = [
       },
       {
         id: "expert",
-        title: "expert-ai",
+        title: "Expert Slack",
         file: "markdown/expert-ai.md",
         icon: "i-icon-park-outline:github",
-        excerpt: "長期記憶LLMを用いた業務チャットbot(Slack App)"
-        // link: "https://github.com/hidenari-yuda/playground-macos"
+        excerpt: "長期記憶LLMを用いた業務チャットbot(Slack App)",
+        link: "https://co.ai-st.art/memo"
       },
       {
         id: "django",
@@ -69,7 +54,7 @@ const bear: BearData[] = [
       },
       {
         id: "english-slack",
-        title: "english-slack",
+        title: "English Slack",
         file: "markdown/english-slack.md",
         icon: "i-icon-park-outline:github",
         excerpt: "ChatGPT×英語学習コミュニティ内のSlack App",
@@ -80,23 +65,31 @@ const bear: BearData[] = [
         title: "Learning Rust",
         file: "markdown/rust.md",
         icon: "i-icon-park-outline:github",
-        excerpt: "Rustの勉強用リポジトリ",
+        excerpt: "This is a list of my source codes to learn Rust...",
         link: "https://github.com/hidenari-yuda/rust-web"
       },
-      {
-        id: "nextjs-ts",
-        title: "Convert to TypeScript",
-        file: "markdown/nextjs-ts.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "JavaScriptで書かれたNextJsプロジェクトをTypeScriptに変換しました。",
-        link: "https://co.ai-st.art"
-      },
+      // {
+      //   id: "nextjs-ts",
+      //   title: "Convert to TypeScript",
+      //   file: "markdown/nextjs-ts.md",
+      //   icon: "i-icon-park-outline:github",
+      //   excerpt: "JavaScriptで書かれたNextJsプロジェクトをTypeScriptに変換しました。",
+      //   link: "https://co.ai-st.art"
+      // },
+      // {
+      //   id: "line",
+      //   title: "LINE",
+      //   file: "markdown/english-slack.md",
+      //   icon: "i-icon-park-outline:github",
+      //   excerpt: "ChatGPT×英語学習コミュニティ内のSlack App",
+      //   link: "https://circular-tricorne-9bc.notion.site/ChatGPT-dd8b10a7efcd49159c52f714e8cce395"
+      // },
       {
         id: "opensource",
         title: "Open Source",
         file: "markdown/opensource.md",
         icon: "i-icon-park-outline:github",
-        excerpt: "This is a list of my open source projects..."
+        excerpt: "This is a list of my open source projects that I've contributed to..."
       },
       {
         id: "github-stats",

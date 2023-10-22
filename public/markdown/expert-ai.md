@@ -13,7 +13,4 @@ SlackAppのタイムアウトにより、処理がうまくいっていたとし
 ->リクエストを直接CloudRunのサーバーに送っているため、間にすぐレスポンスを返すサーバーorバランサーを立てる
 
 ## App Link
-https://slack.com/oauth/v2/authorize?client_id=5140938213351.5168113999441&scope=app_mentions:read,channels:history,chat:write,groups:history,im:history,mpim:history&user_scope=
-
-## LP
-https://co.ai-st.art/
+https://co.ai-st.art/memo
