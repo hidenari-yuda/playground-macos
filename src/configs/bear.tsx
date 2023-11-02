@@ -60,14 +60,14 @@ const bear: BearData[] = [
         excerpt: "ChatGPT×英語学習コミュニティ内のSlack App",
         link: "https://circular-tricorne-9bc.notion.site/ChatGPT-dd8b10a7efcd49159c52f714e8cce395"
       },
-      {
-        id: "rust",
-        title: "Learning Rust",
-        file: "markdown/rust.md",
-        icon: "i-icon-park-outline:github",
-        excerpt: "This is a list of my source codes to learn Rust...",
-        link: "https://github.com/hidenari-yuda/rust-web"
-      },
+      // {
+      //   id: "rust",
+      //   title: "Learning Rust",
+      //   file: "markdown/rust.md",
+      //   icon: "i-icon-park-outline:github",
+      //   excerpt: "This is a list of my source codes to learn Rust...",
+      //   link: "https://github.com/hidenari-yuda/rust-web"
+      // },
       // {
       //   id: "nextjs-ts",
       //   title: "Convert to TypeScript",
