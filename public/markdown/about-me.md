@@ -1,7 +1,6 @@
 # About Me
 
 ![Avatar](img/ui/profile.jpg)
-![Avatar](img/ui/avatar.png)
 ![Avatar](img/ui/football.jpg)
 
 ## Biography
@@ -15,6 +14,16 @@
 インターン先では、人材紹介会社向け送客・CRMサービス「reach」を前身サービスの開発から携わっています。
 
 会社全体で4名、エンジニアは私と社員の方との2人体制のため、バックエンドとフロントエンド関係なく業務を担当しています。
+
+I was born on March 27, 2003 in Osaka and like to play soccer and travel!
+
+I am attending Doshisha University. At university, I am studying political science at the Faculty of Law.
+
+From February 2021 to the present, I have been interning as an engineer at Motoyui Inc.
+
+At my internship company, I have been involved in the development of "reach", a customer service and CRM service for recruitment agencies, since its predecessor service was developed.
+
+There are four people in the entire company, and since there are two engineers, myself and an employee, we are in charge of both back-end and front-end operations.
 
 ## Contact
 
