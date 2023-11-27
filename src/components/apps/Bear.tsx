@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, MouseEvent } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
@@ -7,7 +7,10 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula, prism } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { useStore } from "~/stores";
 import bear from "~/configs/bear";
-import type { BearMdData } from "~/types";
+import type { BearData, BearMdData } from "~/types";
+// import bearEn from "~/configs/bear-en";
+// import ToggleButton from "@mui/material/ToggleButton";
+// import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 
 interface ContentProps {
   contentID: string;
@@ -194,6 +197,29 @@ const Content = ({ contentID, contentURL }: ContentProps) => {
 };
 
 const Bear = () => {
+  // const [lang, setLang] = useState<"ja" | "en">("ja");
+  // const [selectedBear, setSelectedBear] = useState<BearData[]>(bear);
+
+  // // 最優先の言語だけ取得
+  // const languageCode =
+  //   (window.navigator.languages && window.navigator.languages[0]) ||
+  //   window.navigator.language;
+
+  // useEffect(() => {
+  //   const f = async () => {
+  //     if (languageCode === "ja") {
+  //       window.document.documentElement.lang = "ja";
+  //       setLang("ja");
+  //       setSelectedBear(bear);
+  //     } else {
+  //       setSelectedBear(bearEn);
+  //       window.document.documentElement.lang = "en";
+  //       setLang("en");
+  //     }
+  //   };
+  //   f();
+  // }, []);
+
   const [state, setState] = useState<BearState>({
     curSidebar: 0,
     curMidbar: 0,
@@ -221,9 +247,25 @@ const Bear = () => {
     });
   };
 
+  // const handleChange = (event: MouseEvent<HTMLElement>, newAlignment: string) => {
+  //   setLang(newAlignment as "ja" | "en");
+  // };
+
   return (
     <div className="bear font-avenir flex w-full h-full">
       <div className="flex-none w-44">
+        {/* <div className="bg-gray-700 text-white overflow-y-scroll">
+          <ToggleButtonGroup
+            color="secondary"
+            value={lang}
+            // exclusive
+            onChange={handleChange}
+            // aria-label="Platform"
+          >
+            <ToggleButton value="jp">JP</ToggleButton>
+            <ToggleButton value="en">EN</ToggleButton>
+          </ToggleButtonGroup>
+        </div> */}
         <Sidebar cur={state.curSidebar} setMidBar={setMidBar} />
       </div>
       <div className="flex-none w-60">
