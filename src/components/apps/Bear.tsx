@@ -253,8 +253,8 @@ const Bear = () => {
 
   return (
     <div className="bear font-avenir flex w-full h-full">
-      <div className="flex-none w-44">
-        {/* <div className="bg-gray-700 text-white overflow-y-scroll">
+      {/* <div className="flex-none w-44"> */}
+      {/* <div className="bg-gray-700 text-white overflow-y-scroll">
           <ToggleButtonGroup
             color="secondary"
             value={lang}
@@ -266,8 +266,8 @@ const Bear = () => {
             <ToggleButton value="en">EN</ToggleButton>
           </ToggleButtonGroup>
         </div> */}
-        <Sidebar cur={state.curSidebar} setMidBar={setMidBar} />
-      </div>
+      {/* <Sidebar cur={state.curSidebar} setMidBar={setMidBar} /> */}
+      {/* </div> */}
       <div className="flex-none w-60">
         <Middlebar
           items={state.midbarList}

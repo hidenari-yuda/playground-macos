@@ -4,11 +4,13 @@ Web: https://reach-agent.com
 
 LP: https://reach.motoyui.com
 
-2022年2月の前身サービス(現在サービス終了)から2023年10月現在まで開発を担当しています。
+Demo:https://youtu.be/R_Uc2HCeYsc
 
-会社全体で4名、エンジニアは私と社員の方との2人体制のため、バックエンドとフロントエンド関係なく業務を担当しています。
+2022年2月の前身サービス(現在サービス終了)から2023年11月現在まで開発を担当しており、本サービスの開発には立ち上げ当初から開発に携わっております。前身サービスにおいても本サービスと同じく人材紹介会社向けのサービスでしたが、10社ほど導入した段階でサービスとしてうまく伸びなかったため、サービスの方針ごと変え新規で作るという形に至りました。
 
-社員の方も未経験の方だったため、実際にサービスを利用・営業をしている社員との機能追加からDB設計などを話し合う形でサービスを作っています。
+　私自身の役割に関しては、私ともう一人の社員のエンジニアの方との2人体制であるため、インターン・業務委託という形ではあるものの、設計部分から実装まで、バックエンド、フロント、インフラ面関係なく幅広く担当しています。機能の追加や変更の際も、社内のPMや営業担当と相談をしながら機能実装のイメージをコードに落とし込むような流れをとっています。
+
+　そのため、プロダクトを作る上で、まず動くものを作るという点に重点を置いて開発していました。自社の業務にいち早く導入できるためだけでなく、前身サービスをご利用いただいているクライアントに対して待たせているような状態であったため、難しいコードの実装や新しい機能の追加は極力避け、シンプルな実装でそのサービスの中で本当に必要な機能だけを実装して可能な限り早く自社の業務に試験的に導入し、既存のクライアントに使っていただくかということをリリースまでは意識しました。リリース後は、営業担当から回ってくる要望をいかに機能が多くなりすぎることでUXが低下することや、コードが煩雑になることを避けれるかを考えながら取り組んでいます。また、機能の要望を受けるだけでなく、今後必要な機能を提案することも意識しています。実際に、サービス内にRPA機能を追加を提案し実装まで1人で担当しました。背景として、人材紹介業務の中で、各スカウト媒体などから求職者をCRMに転記、面談日程調整、LINE送信など手間がかかることや、社内で利用していたRPAサービスがコストの割に精度が低く自分たちでカスタムしないといけない手間がかかっていたため、技術的にも精度的にも他サービスと大差ないものを作れることを伝え、その機能を一括担当しました。
 
 ## 業務詳細
 ### Backend:Go, Docker
@@ -50,18 +52,20 @@ Web: https://reach-agent.com
 
 LP: https://reach.motoyui.com
 
-I have been in charge of the development of this service from its predecessor service in February 2022 (service now terminated) until now in October 2023.
+Demo:https://youtu.be/R_Uc2HCeYsc
 
-There are 4 people in the entire company, and since there are 2 engineers, myself and an employee, we are in charge of the work regardless of backend and frontend.
+I have been in charge of the development of this service from its predecessor service (currently terminated) in February 2022 to November 2023, and have been involved in the development of this service from its inception. The predecessor service, like this service, was for recruitment agencies, but after about 10 companies introduced the service, it did not grow well, so the entire policy of the service was changed and a new service was created.
 
-Since the employee was also inexperienced, we are creating the service by discussing the addition of functions, DB design, etc. with the employees who are actually using and selling the service.
+　As for my own role, since there are two of us, myself and another employee engineer, I am in charge of a wide range of tasks from design to implementation, regardless of back-end, front-end, or infrastructure aspects, even though I am an intern or outsourced engineer. When adding or changing a function, we consult with the in-house PM and sales staff to develop an image of the function to be implemented into code.
+
+　Therefore, in creating a product, we focused on developing something that works first. Not only to be able to introduce the product to our own business as quickly as possible, but also because we were making our clients who were using our predecessor service wait, we avoided implementing difficult code and adding new functions as much as possible, and implemented only the functions that were truly necessary for the service with a simple implementation as much as possible. We were conscious of the fact that until the release, we had to introduce the service on a trial basis as soon as possible and have existing clients use the service. After the release, we are working on the requests from the sales staff while considering how we can avoid the degradation of UX due to too many functions and the complexity of the code. I am also conscious of not only receiving requests for functions, but also proposing functions that will be needed in the future. In fact, I proposed the addition of an RPA function to the service and was in charge of its implementation by myself. The background of this project was that the job placement process requires a lot of time and effort, such as posting job seekers from various scouting media to CRM, adjusting interview schedules, sending a LINE message, etc., and that the RPA service we were using in-house was not accurate enough for the cost and we had to customize it ourselves. We told them that we could create something that was not much different from other services, and we were collectively responsible for that functionality.
 
 ## Job Details.
 ### Backend:Go, Docker
 
-We are using Echo for middleware implementation and sqlx for DB. As a CRM for a recruiting company, there are many aspects of business logic in the information of jobs and job seekers owned by each recruiting agency, so we designed a Domain-driven design.
+I'm using Echo for middleware implementation and sqlx for DB. As a CRM for a recruiting company, there are many aspects of business logic in the information of jobs and job seekers owned by each recruiting agency, so we designed a Domain-driven design.
 
-In addition, the RPA service that we had been using for a while was not accurate enough for the cost, and we had to customize it ourselves. We proposed that RPA be added as an optional feature within Reach, and were responsible for the entire functionality.
+In addition, the RPA service that we had been using for a while was not accurate enough for the cost, and we had to customize it ourselves. I proposed that RPA be added as an optional feature within Reach, and were responsible for the entire functionality.
 
 ### Frontend: React, NextJs, TypeScript
 
